@@ -159,17 +159,12 @@ Make sure the audio file `gamebgm.wav` is present in the same directory as the p
 
 ## How to Compile and Run
 
-## ON MAC OS
-gcc main.c -o midnight_library
-./midnight_library
-
-# ON LINUX 
-gcc main.c -o midnight_library
-./midnight_library
-
-# ON WINDOWS (MinGW)
-gcc main.c -o midnight_library.exe
-midnight_library.exe
+- **Windows:** PowerShell with `gcc main.c -o midnight_library.exe
+midnight_library.exe`
+- **macOS:** `gcc main.c -o midnight_library
+./midnight_library`
+- **Linux:** `gcc main.c -o midnight_library
+./midnight_library`
 
 ---
 
