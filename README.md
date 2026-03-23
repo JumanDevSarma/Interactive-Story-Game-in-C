@@ -220,13 +220,13 @@ Main game loop
 
 ### Future Improvements
 Possible future updates for the project:
-Add save/load functionality
-Add more story branches and endings
-Improve input validation
-Improve background music handling
-Split the project into multiple source files
-Add better UI design in terminal
-Add more puzzles and secrets
+- Add save/load functionality
+- Add more story branches and endings
+- Improve input validation
+- Improve background music handling
+- Split the project into multiple source files
+- Add better UI design in terminal
+- Add more puzzles and secrets
 
 ---
 
