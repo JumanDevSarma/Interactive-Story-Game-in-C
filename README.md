@@ -157,9 +157,81 @@ Make sure the audio file `gamebgm.wav` is present in the same directory as the p
 
 ---
 
-## How to Compile and Run
+### How to Compile and Run
 
-### Using GCC
-```bash
+ON MAC OS
 gcc main.c -o midnight_library
 ./midnight_library
+
+ON LINUX 
+gcc main.c -o midnight_library
+./midnight_library
+
+ON WINDOWS (MinGW)
+gcc main.c -o midnight_library.exe
+midnight_library.exe
+
+---
+
+### File Requirements
+
+To run the full version properly, make sure the following files are available in the same folder:
+main.c
+gamebgm.wav
+How to Play
+Run the program
+From the main menu, select Start
+Enter your player name
+Read the story and choose from the given options
+Make wise decisions to gain points and survive
+Reach the final chamber and defeat the Librarian to win
+
+---
+
+### Controls
+
+Enter menu numbers like 1, 2, 3, etc. to choose options
+Press Enter when prompted to continue
+Type reload in supported input sections to access the Developer Tool
+
+---
+
+### Stages
+stage_1() to stage_10() — handle the story progression
+
+---
+
+### Project Structure
+This project currently uses a single C source file containing:
+Function declarations
+Feature functions
+Stage functions
+Ending functions
+Main game loop
+
+---
+
+### Credits
+The Midnight Library was created by Team Reload:
+Juman
+Hudson
+Shivam
+
+---
+
+### Future Improvements
+Possible future updates for the project:
+Add save/load functionality
+Add more story branches and endings
+Improve input validation
+Improve background music handling
+Split the project into multiple source files
+Add better UI design in terminal
+Add more puzzles and secrets
+
+---
+
+### Notes
+This project is a console-based adventure game designed for interactive storytelling and decision-making. It combines simple C programming concepts such as functions, strings, conditionals, loops, global variables, and system calls into a complete playable game experience.
+
+
