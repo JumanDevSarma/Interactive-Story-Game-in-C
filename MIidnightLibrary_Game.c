@@ -1,33 +1,3 @@
-// DEVELOPER AREA //
-
-// Things i Did:(Hudson)
-// Version: 1.3.0
-// 1. Bug in stage_1 option1 where the clear() function was not working.
-// 2. I added and \n in some of the lines like in "GAME OVER" logo i remove \n since it
-//    was not showing as intended.
-
-
-// 3. I create new sm(""); , printf(""); to shorten the long lines of codes to make it easier to 
-//    read during development.
-// 4. I suggest changing the message from printf() to sm() in all stage message after selecting options
-//    to make it look better.
-// 5. I decrease the loading time of sm() in some places to make it look better.
-
-//Things i did:(Juman)
-//Version 1.4.0
-// 1. Added the player score system.
-// 2. Refined few simple print texts.
-// 3. Added borders to make parts of the source code.
-// 4. The victory code had some bug. fixed it.
-// 5. Added the developer tool using switch-case.
-//Version 1.5.0
-//1. Added background music.
-//2. Added player name feature.
-//3. Fixed a mismatch in Developer Tool
-//Version 1.5.3
-//1. Made stage transition text to use sm instead of printf. 
-//2. Stage transtition texts now uses getchar() to ask user to press enter to continue rather than using sleep().
-
 //---------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -213,7 +183,7 @@ void stop_music()
 #ifdef _WIN32
     system("taskkill /IM powershell.exe /F >nul 2>&1");
 #elif __APPLE__
-    system("killall afplay > /dev/null 2>&1");
+    system("pkill -f \"while true; do afplay gamebgm.wav; done\" > /dev/null 2>&1; killall afplay > /dev/null 2>&1");
 #elif __linux__
     system("killall mpg123 > /dev/null 2>&1");
 #endif
