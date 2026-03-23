@@ -60,6 +60,10 @@ Your goal is to enter the Midnight Library, survive its dangers, and find the Sh
 - Changed stage transition text to use `sm()` instead of `printf()`
 - Stage transition messages now use `getchar()` to ask the user to press Enter to continue instead of using `sleep()`
 
+### Version 1.5.4
+- Fixed issue where background music kept playing on macOS after closing the game.
+- Improved stop_music() to fully stop the looping afplay process.
+
 ---
 
 ## Game Flow
