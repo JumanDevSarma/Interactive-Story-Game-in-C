@@ -211,10 +211,10 @@ Main game loop
 ---
 
 ### Credits
-The Midnight Library was created by Team Reload:
-Juman
-Hudson
-Shivam
+### The Midnight Library was created by Team Reload:
+- Juman
+- Hudson
+- Shivam
 
 ---
 
